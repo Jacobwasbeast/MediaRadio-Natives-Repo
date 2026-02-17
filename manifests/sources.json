@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "versions": {
+    "2.2.6": {
+      "darwin": {
+        "status": "ready",
+        "platform": "darwin",
+        "source": {
+          "upstreamUrl": "https://github.com/lavalink-devs/lavaplayer",
+          "binaryUrl": "https://repo.maven.apache.org/maven2/dev/arbjerg/lavaplayer-natives/2.2.6/lavaplayer-natives-2.2.6.jar",
+          "version": "2.2.6"
+        },
+        "archive": {
+          "type": "jar",
+          "hash": {
+            "algorithm": "sha256",
+            "value": "6c77877aa3ff28892df56fab42ecddb29d7bceb23c0be0ffe2df9be3ee46c02b"
+          }
+        },
+        "requiredFiles": [
+          "natives/darwin/libconnector.dylib"
+        ],
+        "fileHashes": {
+          "algorithm": "sha256",
+          "values": {
+            "natives/darwin/libconnector.dylib": "b420003e27718faa08d2b676f0fbece67efd7e645409a4301a823d62fd4d47c9"
+          }
+        },
+        "license": {
+          "spdx": [
+            "Apache-2.0",
+            "BSD-2-Clause",
+            "BSD-3-Clause",
+            "LGPL-2.1-only",
+            "LicenseRef-FDK-AAC"
+          ],
+          "files": [
+            "licenses/Apache-2.0-lavaplayer.txt",
+            "licenses/BSD-2-Clause-libsamplerate-COPYING.txt",
+            "licenses/BSD-3-Clause-libogg-COPYING.txt",
+            "licenses/BSD-3-Clause-libvorbis-COPYING.txt",
+            "licenses/BSD-3-Clause-opus-COPYING.txt",
+            "licenses/FDK-AAC-NOTICE.txt",
+            "licenses/LGPL-2.1-mpg123-COPYING.txt",
+            "licenses/THIRD_PARTY_NOTICES.md"
+          ]
+        },
+        "provenance": "Built from Maven Central artifact dev.arbjerg:lavaplayer-natives:2.2.6. Native file extracted from the official jar path natives/darwin/libconnector.dylib."
+      },
+      "linux-aarch64": {
+        "status": "ready",
+        "platform": "linux-aarch64",
+        "source": {
+          "upstreamUrl": "https://github.com/lavalink-devs/lavaplayer",
+          "binaryUrl": "https://repo.maven.apache.org/maven2/dev/arbjerg/lavaplayer-natives/2.2.6/lavaplayer-natives-2.2.6.jar",
+          "version": "2.2.6"
+        },
+        "archive": {
+          "type": "jar",
+          "hash": {
+            "algorithm": "sha256",
+            "value": "6c77877aa3ff28892df56fab42ecddb29d7bceb23c0be0ffe2df9be3ee46c02b"
+          }
+        },
+        "requiredFiles": [
+          "natives/linux-aarch64/libconnector.so"
+        ],
+        "fileHashes": {
+          "algorithm": "sha256",
+          "values": {
+            "natives/linux-aarch64/libconnector.so": "d2b39e686000697a2bfec8d5bbe3412b1137d24521bc9eb59de400627ea60acf"
+          }
+        },
+        "license": {
+          "spdx": [
+            "Apache-2.0",
+            "BSD-2-Clause",
+            "BSD-3-Clause",
+            "LGPL-2.1-only",
+            "LicenseRef-FDK-AAC"
+          ],
+          "files": [
+            "licenses/Apache-2.0-lavaplayer.txt",
+            "licenses/BSD-2-Clause-libsamplerate-COPYING.txt",
+            "licenses/BSD-3-Clause-libogg-COPYING.txt",
+            "licenses/BSD-3-Clause-libvorbis-COPYING.txt",
+            "licenses/BSD-3-Clause-opus-COPYING.txt",
+            "licenses/FDK-AAC-NOTICE.txt",
+            "licenses/LGPL-2.1-mpg123-COPYING.txt",
+            "licenses/THIRD_PARTY_NOTICES.md"
+          ]
+        },
+        "provenance": "Built from Maven Central artifact dev.arbjerg:lavaplayer-natives:2.2.6. Native file extracted from the official jar path natives/linux-aarch64/libconnector.so."
+      },
+      "linux-x86-64": {
+        "status": "ready",
+        "platform": "linux-x86-64",
+        "source": {
+          "upstreamUrl": "https://github.com/lavalink-devs/lavaplayer",
+          "binaryUrl": "https://repo.maven.apache.org/maven2/dev/arbjerg/lavaplayer-natives/2.2.6/lavaplayer-natives-2.2.6.jar",
+          "version": "2.2.6"
+        },
+        "archive": {
+          "type": "jar",
+          "hash": {
+            "algorithm": "sha256",
+            "value": "6c77877aa3ff28892df56fab42ecddb29d7bceb23c0be0ffe2df9be3ee46c02b"
+          }
+        },
+        "requiredFiles": [
+          "natives/linux-x86-64/libconnector.so"
+        ],
+        "fileHashes": {
+          "algorithm": "sha256",
+          "values": {
+            "natives/linux-x86-64/libconnector.so": "7429b83f0c861d6e76d158426bdc9012ce00514ecee4274fefde2120c25b71a2"
+          }
+        },
+        "license": {
+          "spdx": [
+            "Apache-2.0",
+            "BSD-2-Clause",
+            "BSD-3-Clause",
+            "LGPL-2.1-only",
+            "LicenseRef-FDK-AAC"
+          ],
+          "files": [
+            "licenses/Apache-2.0-lavaplayer.txt",
+            "licenses/BSD-2-Clause-libsamplerate-COPYING.txt",
+            "licenses/BSD-3-Clause-libogg-COPYING.txt",
+            "licenses/BSD-3-Clause-libvorbis-COPYING.txt",
+            "licenses/BSD-3-Clause-opus-COPYING.txt",
+            "licenses/FDK-AAC-NOTICE.txt",
+            "licenses/LGPL-2.1-mpg123-COPYING.txt",
+            "licenses/THIRD_PARTY_NOTICES.md"
+          ]
+        },
+        "provenance": "Built from Maven Central artifact dev.arbjerg:lavaplayer-natives:2.2.6. Native file extracted from the official jar path natives/linux-x86-64/libconnector.so."
+      },
+      "win-x86-64": {
+        "status": "ready",
+        "platform": "win-x86-64",
+        "source": {
+          "upstreamUrl": "https://github.com/lavalink-devs/lavaplayer",
+          "binaryUrl": "https://repo.maven.apache.org/maven2/dev/arbjerg/lavaplayer-natives/2.2.6/lavaplayer-natives-2.2.6.jar",
+          "version": "2.2.6"
+        },
+        "archive": {
+          "type": "jar",
+          "hash": {
+            "algorithm": "sha256",
+            "value": "6c77877aa3ff28892df56fab42ecddb29d7bceb23c0be0ffe2df9be3ee46c02b"
+          }
+        },
+        "requiredFiles": [
+          "natives/win-x86-64/libmpg123-0.dll",
+          "natives/win-x86-64/connector.dll"
+        ],
+        "fileHashes": {
+          "algorithm": "sha256",
+          "values": {
+            "natives/win-x86-64/libmpg123-0.dll": "8970c7f6be33fc78f7d48d8ff8568da779ab6cecb31e9485fb28f2cf58d9a727",
+            "natives/win-x86-64/connector.dll": "eb5d3707fffe6c7f1a2528d7c5dffcce5579148d22b29ef02cbc5b2fd23f5673"
+          }
+        },
+        "license": {
+          "spdx": [
+            "Apache-2.0",
+            "BSD-2-Clause",
+            "BSD-3-Clause",
+            "LGPL-2.1-only",
+            "LicenseRef-FDK-AAC"
+          ],
+          "files": [
+            "licenses/Apache-2.0-lavaplayer.txt",
+            "licenses/BSD-2-Clause-libsamplerate-COPYING.txt",
+            "licenses/BSD-3-Clause-libogg-COPYING.txt",
+            "licenses/BSD-3-Clause-libvorbis-COPYING.txt",
+            "licenses/BSD-3-Clause-opus-COPYING.txt",
+            "licenses/FDK-AAC-NOTICE.txt",
+            "licenses/LGPL-2.1-mpg123-COPYING.txt",
+            "licenses/THIRD_PARTY_NOTICES.md"
+          ]
+        },
+        "provenance": "Built from Maven Central artifact dev.arbjerg:lavaplayer-natives:2.2.6. Native files extracted from official jar paths natives/win-x86-64/connector.dll and natives/win-x86-64/libmpg123-0.dll."
+      }
+    }
+  }
+}
